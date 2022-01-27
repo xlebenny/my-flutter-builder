@@ -1,4 +1,4 @@
-FROM google/dart-runtime-base:2.14.0-321.0.dev as builder
+FROM google/dart:2.15.1-sdk as builder
 WORKDIR /root
 RUN apt-get update \
   && apt-get install -y git-all \
