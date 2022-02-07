@@ -1,4 +1,4 @@
-FROM dart:2.15.1-sdk as builder
+FROM dart/2.16.0-sdk as builder
 WORKDIR /root
 RUN apt-get update \
   && apt-get install -y git-all \
